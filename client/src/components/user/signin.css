@@ -1,0 +1,68 @@
+.signin-1{
+	background-color: #dae5e2;
+	height:100vh;
+	box-sizing: border-box;
+	padding-top: 5vh;
+}
+.signin-2{
+	max-width: 400px;
+	box-sizing: border-box;
+	margin: auto;
+	width: 100vw;
+	background-color: #f5f6f6;
+	padding-top: 1vh;
+	box-shadow:2px 4px 8px 1px #94999c, -2px -4px 8px 1px #94999c;
+	border-radius: 1%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* justify-content:space-between; */
+	height:60vh;
+	min-height:50vh;
+}
+form{
+	display:flex;
+	flex-direction: column;
+	align-items: stretch;
+	justify-content:space-between;
+	width:90%
+}
+.signin-2 input{
+	display: inline-block;
+	box-sizing: border-box;
+	height:40px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	padding: 12px 20px;
+	font-weight: 300;
+	font-size:14px;
+	transition: 0.4s all;
+}
+
+.signin-3 {
+	width:90%;
+	/* margin: 82px 0; */
+}
+
+.signin-4{
+	width:90%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin: 16px 0;
+	text-decoration: none;
+}
+.signin-4 a{
+	text-decoration: none;
+	color:#4d5052
+}
+
+.error-message{
+	color: #c62928;
+	font-size: 12px;
+	line-height: 18px;
+	margin: 10px 0 20px 0;
+}
+
+
